@@ -1,0 +1,100 @@
+/* styles.css */
+
+* {
+  font-family: "Roboto";
+  color: white;
+  outline: 2px solid red;
+  background-color: #1F2937;
+}
+
+h1 {
+  font-weight: 900;
+  color: white;
+}
+
+#introduction h1 {
+  font-size: 48px;
+}
+
+#introduction p {
+  font-size: 18px;
+}
+
+#introduction button {
+  font-size: 24px;
+  background-color: blue;
+  border-radius: 5px;
+  padding: 5px;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-weight: 500;
+}
+
+#information h1 {
+  font-size: 36px;
+  color: black;
+}
+
+#information p {
+  color: black;
+}
+
+#quotation, #quotation * {
+  background-color: #E5E7EB;
+}
+
+#quotation blockquote {
+  font-size: 36px;
+  font-weight: 300;
+  flex-direction: column;
+}
+
+#quotation blockquote * {
+  color: #1F2937;
+}
+
+#quotation blockquote footer {
+  font-weight: 900;
+  text-align: right;
+}
+
+.flex-container {
+  display: flex;
+  gap: 10px;
+}
+
+header .flex-container {
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .links {
+  display: flex;
+  gap: 20px;
+}
+
+#introduction .flex-container {
+  flex: 1;
+}
+
+#introduction .flex-container div {
+  flex-basis: 450px;
+}
+
+#introduction .flex-container img {
+  flex-grow: 1;
+}
+
+#information .flex-container {
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+#information .flex-container h1,
+#information .flex-container p {
+  background-color: white;
+}
+
+
