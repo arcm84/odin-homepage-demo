@@ -1,66 +1,27 @@
 /* styles.css */
 
+body {
+  background-color: #1F2937;;
+}
+
+header {
+  padding: 0 50px;
+}
+
+.flex-container {
+  display: flex;
+  gap: 10px;
+}
+
 * {
   font-family: "Roboto";
   color: white;
-  outline: 2px solid red;
   background-color: #1F2937;
 }
 
 h1 {
   font-weight: 900;
   color: white;
-}
-
-#introduction h1 {
-  font-size: 48px;
-}
-
-#introduction p {
-  font-size: 18px;
-}
-
-#introduction button {
-  font-size: 24px;
-  background-color: blue;
-  border-radius: 5px;
-  padding: 5px;
-  padding-right: 15px;
-  padding-left: 15px;
-  font-weight: 500;
-}
-
-#information h1 {
-  font-size: 36px;
-  color: black;
-}
-
-#information p {
-  color: black;
-}
-
-#quotation, #quotation * {
-  background-color: #E5E7EB;
-}
-
-#quotation blockquote {
-  font-size: 36px;
-  font-weight: 300;
-  flex-direction: column;
-}
-
-#quotation blockquote * {
-  color: #1F2937;
-}
-
-#quotation blockquote footer {
-  font-weight: 900;
-  text-align: right;
-}
-
-.flex-container {
-  display: flex;
-  gap: 10px;
 }
 
 header .flex-container {
@@ -86,10 +47,24 @@ header .links {
   flex-grow: 1;
 }
 
-#information .flex-container {
-  background-color: white;
-  align-items: center;
-  justify-content: center;
+#introduction {
+  padding: 25px 100px;
+}
+
+#introduction h1 {
+  font-size: 48px;
+}
+
+#introduction p {
+  font-size: 18px;
+}
+
+#introduction button {
+  font-size: 24px;
+  background-color: blue;
+  border-radius: 5px;
+  padding: 5px 15px;
+  font-weight: 500;
 }
 
 #information .flex-container h1,
@@ -97,4 +72,74 @@ header .links {
   background-color: white;
 }
 
+#information .flex-container {
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+}
 
+#information {
+  padding: 25px 125px;
+  background-color: white;
+}
+
+#information h1 {
+  font-size: 36px;
+  color: black;
+}
+
+#information p {
+  color: black;
+}
+
+#quotation {
+  padding: 50px 125px;
+}
+
+#quotation, #quotation * {
+  background-color: #E5E7EB;
+}
+
+#quotation blockquote {
+  font-size: 36px;
+  font-weight: 300;
+  flex-direction: column;
+}
+
+#quotation blockquote * {
+  color: #1F2937;
+}
+
+#quotation blockquote footer {
+  font-weight: 900;
+  text-align: right;
+}
+
+#call {
+  margin: 50px 100px;
+  padding: 50px;
+  border-radius: 25px;
+}
+
+#call, #call * {
+  background-color: #3882F6;
+}
+
+#calldiv2 {
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+#calldiv2 button {
+  font-size: 24px;
+  background-color: blue;
+  border-radius: 5px;
+  padding: 5px 15px;
+  font-weight: 500;
+  height: 100px;
+}
+
+footer {
+  justify-content: center;
+}
